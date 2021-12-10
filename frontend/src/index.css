@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search {
+  width: 100%;
+  position: center;
+  display: flex;
+  height: 100%;
+}
+
+.searchTerm {
+  width: 50%;
+  height: 100%;
+  border: 3px solid #00b4cc;
+  /* border-right: none; */
+  padding: 5px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+  margin: 1rem;
+}
+
+.searchTerm:focus {
+  color: #cc4b00;
+}
+
+.searchButton {
+
+  width: 10%;
+  height: 100%;
+  border: 1px solid #00b4cc;
+  
+  padding: 5px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+
+.wrap {
+  width: 50%;
+}
+

@@ -1,0 +1,16 @@
+3rd party things used so far:
+
+tailwind css (craco)
+guide: https://tailwindcss.com/docs/guides/create-react-app
+
+styled-components (for sidebar)
+npm install styled-components
+
+react-icons (for sidebar/cart)
+npm install react-icons
+
+react-router-dom (for sidebar links) //NOT USED BUT MIGHT USE
+npm install react-router-dom
+
+popup box (for showing cart items)
+npm install reactjs-popup --save (in src->components)
